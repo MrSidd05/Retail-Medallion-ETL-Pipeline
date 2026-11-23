@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local data / exports
+*.csv
+*.parquet
+*.delta/
+data/raw/
+data/processed/
+*.xlsx
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary
+*.log
+tmp/
+temp/
